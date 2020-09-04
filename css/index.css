@@ -21,8 +21,33 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
+
+header nav{
+    display:flex;
+    flex:row;
+    justify-content:center;
+    /* justify-content:space-evenly; */
+    justify-content:space-around;
+    border:1px solid black;
+    align-items: center;
+
+
+}
+header nav a{
+    text-decoration:none;
+    color:black;
+
+
+}
+
+.top-pic{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -111,6 +136,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:first-child{
+    background:teal;
+}
+.boxes .box:nth-child(2){
+    background:gold;
+}
+.boxes .box:nth-child(3){
+    background:cadetblue;
+}
+.boxes .box:nth-child(4){
+    background:coral;
+}
+.boxes .box:nth-child(5){
+    background:crimson;
+}
+.boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.boxes .box:nth-child(7){
+    background:darkorchid;
+}
+.boxes .box:nth-child(8){
+    background:hotpink;
+}
+.boxes .box:nth-child(9){
+    background:indigo;
+}
+.boxes .box:nth-child(10){
+    background:dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
