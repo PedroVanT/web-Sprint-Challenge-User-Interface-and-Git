@@ -27,15 +27,13 @@ time, mark, audio, video {
 header nav{
     display:flex;
     flex:row;
-    justify-content:center;
-    /* justify-content:space-evenly; */
-    justify-content:space-around;
-    border:1px solid black;
+    /* justify-content:center; */
     align-items: center;
-
-
+    justify-content: space-between;
+    margin:0 560px;
 }
 header nav a{
+    justify-content:center;
     text-decoration:none;
     color:black;
 
@@ -200,4 +198,121 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* 
+about css
+*/
+
+
+.AboutT{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+.sec-1{
+    margin:0 560px;
+}
+/* .t2{
+    display:flex;
+} */
+.inside{
+    display:flex;
+    flex-direction:row;
+}
+.picz{
+    display:flex;
+    flex-direction:column;
+}
+.tl{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.tl .picz{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.tl h2{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.tl p{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.tl .learn{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+
+
+
+.tr{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.tr .picz{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.tr h2{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.tr p{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.tr .learn{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.bl{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;  
+}
+.bl .picz{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.bl h2{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.bl p{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.bl .learn{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+
+.br{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly; 
+}
+.br .picz{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.br h2{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.br p{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.br .learn{ 
+margin-bottom:15px;
+margin-top:15px;
 }
